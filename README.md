@@ -11,10 +11,23 @@ The holdout set was evaluated on the final model, given a test set accuracy of 5
 
 Finally, I used the trained model to make predictions of breeds on dogs that I know, as well as the top 5 after the best guess.
 
-Future work:
-* run model with explicit normalization of images (should be already baked-in, but worth testing)
+Some dog names in the Stanford dataset were renamed based on their names in the AKC.
+* Airedale → Airedale Terrier
+* Basset → Basset Hound
+* Boston bull → Boston Terrier
+* Cairn → Cairn Terrier
+* Cardigan → Cardigan Welsh Corgi
+* Chow → Chow Chow
+* Dingo → Carolina Dog
+* Entlebucher → Entlebucher Mountain Dog
+* Pekinese → Pekingese
+* Pembroke → Pembroke Welsh Corgi
+* Scotch terrier → Scottish terrier
+---
+## Future work:
 * add images for dog breeds not in the stanford dogs dataset
 * add a nearest neighbors analysis to find the nearest dog images in the dataset, based on the CNN's last-layer embedding (before the FC layer)
 * an object detection model using the bounding boxes given in the Stanford dogs dataset
-
+---
+## Output
 ![example of classification](example.png)
