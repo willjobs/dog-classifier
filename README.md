@@ -25,7 +25,6 @@ Some dog names in the Stanford dataset were renamed based on their names in the 
 * Scotch terrier → Scottish terrier
 ---
 ## Future work:
-* add images for dog breeds not in the stanford dogs dataset
 * add a nearest neighbors analysis to find the nearest dog images in the dataset, based on the CNN's last-layer embedding (before the FC layer)
 * an object detection model using the bounding boxes given in the Stanford dogs dataset
 ---
