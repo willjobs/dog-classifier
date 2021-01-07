@@ -1,11 +1,8 @@
 # Dog classifier
 This project uses transfer learning to build a CNN pre-trained on ImageNet, with ResNet-18 architecture, to classify dog breeds. The training dataset is the [Stanford Dogs Dataset](http://vision.stanford.edu/aditya86/ImageNetDogs/) and images from the internet for AKC dog breeds not in the Stanford dogs dataset (see below). The [fastai](https://github.com/fastai/fastai) library (v2), which is a high-level library on top of PyTorch, was used for creating the model.
 
-Edit: An experiment using only images downloaded from the internet for all dog breeds showed better performance on the test set and on my own images of dogs I know. This new model is in [Dogs_Classifier_Online.ipynb](Dogs_Classifier_Online.ipynb). It appears this may be due to a difference between the Stanford dog images and typical photos. The histograms for the Stanford dogs photos seem to be very smooth and centered, while those for typical images are rougher.
+Edit: An experiment using only images downloaded from the internet for all dog breeds showed better performance on the test set and on my own images of dogs I know. This new model is in [Dogs_Classifier_Online.ipynb](Dogs_Classifier_Online.ipynb). This may be due to a difference between the Stanford dog images and typical photos, e.g., if there was any preprocessing done on the Stanford dog images that I am unaware of. 
 
-Stanford dogs histogram             |  Typical image histogram
-:-------------------------:|:-------------------------:
-<img src="stanford_histogram.png" height="200" />  |  <img src="typical_histogram.png" height="200" />
 
 A 10% test set (holdout set) was set aside and hidden from fastai. The validation set was 20% of the remaining data. Both the test set and validation set were chosen as stratified samples to maintain class balance in the datasets.
 
