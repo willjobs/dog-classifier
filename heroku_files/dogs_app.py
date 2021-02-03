@@ -1,7 +1,8 @@
 import os
+import requests
 from PIL import ExifTags
-from fastai.vision.all import *
-from fastai.vision.widgets import *
+from fastai.learner import load_learner
+from fastai.vision.core import PILImage
 import streamlit as st
 
 AWS_DIR = 'https://wjdogs.s3.amazonaws.com'
@@ -85,11 +86,16 @@ def fix_rotation(file_data):
     return image
 
 
-# cache the model
-if not os.path.isfile(MODEL_FILE):
-    _ = download_file(f'{AWS_DIR}/{MODEL_FILE}')
+# cache the model so it only gets loaded once
+@st.cache(allow_output_mutation=True)
+def get_model():
+    if not os.path.isfile(MODEL_FILE):
+        _ = download_file(f'{AWS_DIR}/{MODEL_FILE}')
 
-learn = load_learner(MODEL_FILE)
+    learn = load_learner(MODEL_FILE)
+    return learn
+
+learn = get_model()
 
 if file_data is not None:
     with st.spinner('Classifying...'):
