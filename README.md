@@ -1,6 +1,7 @@
 # Dog classifier
 
-This project was turned into a [simple web app](https://dogs.willjobs.com).
+### 🚨 **NOTE:** This project was turned into a [web app](https://dogs.willjobs.com).
+---
 
 This project uses transfer learning to build a CNN pre-trained on ImageNet, with ResNet-50 architecture, to classify dog breeds. The training dataset is the [Stanford Dogs Dataset](http://vision.stanford.edu/aditya86/ImageNetDogs/) and images from the internet for AKC dog breeds not in the Stanford dogs dataset (see below). The [fastai](https://github.com/fastai/fastai) library (v2), which is a high-level library on top of PyTorch, was used for creating the model.
 
