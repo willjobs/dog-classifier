@@ -37,5 +37,10 @@ Some dog names in the Stanford dataset were renamed based on their names in the 
 * an object detection model using the bounding boxes given in the Stanford dogs dataset
 
 ---
+## Don't see your dog?
+
+🤔 Don't see your dog breed? For a full list of dog breeds in this project, [click here](dog_breeds.html).
+
+---
 ## App
 ![demo of app](demo.gif)

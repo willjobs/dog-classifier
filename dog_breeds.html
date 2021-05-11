@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Dog Breeds</title>
+    </head>
+    <body>
+        <div style="margin: auto; width: 60%; max-width: 800px; min-width: 300px;">
+            <h1>List of dog breeds used in dog classifier</h1>
+            <p>Note: only the <a href="https://www.akc.org/dog-breeds/" target="_blank">official AKC dog breeds</a>, plus some additional common dog breeds (from the <a href="https://www.akc.org/expert-advice/news/most-popular-dog-breeds-full-ranking-list/" target="_blank">top 100 most popular dogs in 2018</a>, and a couple mixes) were included. There are many other dog breeds (e.g., the Korean Jindo), that are recognized by the AKC as part of their <a href="https://www.akc.org/dog-breeds/foundation-stock-service/" target="_blank">Foundation Stock Service</a> but are not eligible for AKC registration). So, this model was not trained on every existing dog breed, just the most common.</p>
+            <div style="text-align:center;">
+                <table border="1">
+                    <tr><th>Breed</th><th>Example</th></tr>
+                    <tr><td>Affenpinscher</td><td><img src="example_dogs/affenpinscher.jpg" width="200" /></td></tr>
+                    <tr><td>Afghan Hound</td><td><img src="example_dogs/afghanhound.jpg" width="200" /></td></tr>
+                    <tr><td>African Hunting Dog</td><td><img src="example_dogs/africanhuntingdog.jpg" width="200" /></td></tr>
+                    <tr><td>Airedale Terrier</td><td><img src="example_dogs/airedaleterrier.jpg" width="200" /></td></tr>
+                    <tr><td>Akita</td><td><img src="example_dogs/akita.jpg" width="200" /></td></tr>
+                    <tr><td>American Staffordshire Terrier</td><td><img src="example_dogs/americanstaffordshireterrier.jpg" width="200" /></td></tr>
+                    <tr><td>Anatolian Shepherd Dog</td><td><img src="example_dogs/anatolianshepherddog.jpg" width="200" /></td></tr>
+                    <tr><td>Appenzeller</td><td><img src="example_dogs/appenzeller.jpg" width="200" /></td></tr>
+                    <tr><td>Australian Cattle Dog</td><td><img src="example_dogs/australiancattledog.jpg" width="200" /></td></tr>
+                    <tr><td>Australian Shepherd</td><td><img src="example_dogs/australianshepherd.jpg" width="200" /></td></tr>
+                    <tr><td>Australian Terrier</td><td><img src="example_dogs/australianterrier.jpg" width="200" /></td></tr>
+                    <tr><td>Basenji</td><td><img src="example_dogs/basenji.jpg" width="200" /></td></tr>
+                    <tr><td>Basset Hound</td><td><img src="example_dogs/bassethound.jpg" width="200" /></td></tr>
+                    <tr><td>Beagle</td><td><img src="example_dogs/beagle.jpg" width="200" /></td></tr>
+                    <tr><td>Bedlington Terrier</td><td><img src="example_dogs/bedlingtonterrier.jpg" width="200" /></td></tr>
+                    <tr><td>Bernese Mountain Dog</td><td><img src="example_dogs/bernesemountaindog.jpg" width="200" /></td></tr>
+                    <tr><td>Bichon Frise</td><td><img src="example_dogs/bichonfrise.jpg" width="200" /></td></tr>
+                    <tr><td>Black-And-Tan Coonhound</td><td><img src="example_dogs/black-and-tancoonhound.jpg" width="200" /></td></tr>
+                    <tr><td>Blenheim Spaniel</td><td><img src="example_dogs/blenheimspaniel.jpg" width="200" /></td></tr>
+                    <tr><td>Bloodhound</td><td><img src="example_dogs/bloodhound.jpg" width="200" /></td></tr>
+                    <tr><td>Bluetick</td><td><img src="example_dogs/bluetick.jpg" width="200" /></td></tr>
+                    <tr><td>Border Collie</td><td><img src="example_dogs/bordercollie.jpg" width="200" /></td></tr>
+                    <tr><td>Border Terrier</td><td><img src="example_dogs/borderterrier.jpg" width="200" /></td></tr>
+                    <tr><td>Borzoi</td><td><img src="example_dogs/borzoi.jpg" width="200" /></td></tr>
+                    <tr><td>Boston Terrier</td><td><img src="example_dogs/bostonterrier.jpg" width="200" /></td></tr>
+                    <tr><td>Bouvier Des Flandres</td><td><img src="example_dogs/bouvierdesflandres.jpg" width="200" /></td></tr>
+                    <tr><td>Boxer</td><td><img src="example_dogs/boxer.jpg" width="200" /></td></tr>
+                    <tr><td>Boykin Spaniel</td><td><img src="example_dogs/boykinspaniel.jpg" width="200" /></td></tr>
+                    <tr><td>Brabancon Griffon</td><td><img src="example_dogs/brabancongriffon.jpg" width="200" /></td></tr>
+                    <tr><td>Briard</td><td><img src="example_dogs/briard.jpg" width="200" /></td></tr>
+                    <tr><td>Brittany Spaniel</td><td><img src="example_dogs/brittanyspaniel.jpg" width="200" /></td></tr>
+                    <tr><td>Bull Mastiff</td><td><img src="example_dogs/bullmastiff.jpg" width="200" /></td></tr>
+                    <tr><td>Bull Terrier</td><td><img src="example_dogs/bullterrier.jpg" width="200" /></td></tr>
+                    <tr><td>Cairn Terrier</td><td><img src="example_dogs/cairnterrier.jpg" width="200" /></td></tr>
+                    <tr><td>Cane Corso</td><td><img src="example_dogs/canecorso.jpg" width="200" /></td></tr>
+                    <tr><td>Cardigan Welsh Corgi</td><td><img src="example_dogs/cardiganwelshcorgi.jpg" width="200" /></td></tr>
+                    <tr><td>Carolina Dog</td><td><img src="example_dogs/carolinadog.jpg" width="200" /></td></tr>
+                    <tr><td>Cavalier King Charles Spaniel</td><td><img src="example_dogs/cavalierkingcharlesspaniel.jpg" width="200" /></td></tr>
+                    <tr><td>Chesapeake Bay Retriever</td><td><img src="example_dogs/chesapeakebayretriever.jpg" width="200" /></td></tr>
+                    <tr><td>Chihuahua</td><td><img src="example_dogs/chihuahua.jpg" width="200" /></td></tr>
+                    <tr><td>Chinese Crested</td><td><img src="example_dogs/chinesecrested.jpg" width="200" /></td></tr>
+                    <tr><td>Chinese Shar-Pei</td><td><img src="example_dogs/chineseshar-pei.jpg" width="200" /></td></tr>
+                    <tr><td>Chow Chow</td><td><img src="example_dogs/chowchow.jpg" width="200" /></td></tr>
+                    <tr><td>Clumber</td><td><img src="example_dogs/clumber.jpg" width="200" /></td></tr>
+                    <tr><td>Cockapoo</td><td><img src="example_dogs/cockapoo.jpg" width="200" /></td></tr>
+                    <tr><td>Cocker Spaniel</td><td><img src="example_dogs/cockerspaniel.jpg" width="200" /></td></tr>
+                    <tr><td>Collie</td><td><img src="example_dogs/collie.jpg" width="200" /></td></tr>
+                    <tr><td>Coton de Tulear</td><td><img src="example_dogs/cotondetulear.jpg" width="200" /></td></tr>
+                    <tr><td>Curly-Coated Retriever</td><td><img src="example_dogs/curly-coatedretriever.jpg" width="200" /></td></tr>
+                    <tr><td>Dachshund</td><td><img src="example_dogs/dachshund.jpg" width="200" /></td></tr>
+                    <tr><td>Dalmatian</td><td><img src="example_dogs/dalmatian.jpg" width="200" /></td></tr>
+                    <tr><td>Dandie Dinmont</td><td><img src="example_dogs/dandiedinmont.jpg" width="200" /></td></tr>
+                    <tr><td>Dhole</td><td><img src="example_dogs/dhole.jpg" width="200" /></td></tr>
+                    <tr><td>Doberman</td><td><img src="example_dogs/doberman.jpg" width="200" /></td></tr>
+                    <tr><td>Dogues de Bordeaux</td><td><img src="example_dogs/doguesdebordeaux.jpg" width="200" /></td></tr>
+                    <tr><td>English Bulldog</td><td><img src="example_dogs/englishbulldog.jpg" width="200" /></td></tr>
+                    <tr><td>English Foxhound</td><td><img src="example_dogs/englishfoxhound.jpg" width="200" /></td></tr>
+                    <tr><td>English Mastiff</td><td><img src="example_dogs/englishmastiff.jpg" width="200" /></td></tr>
+                    <tr><td>English Setter</td><td><img src="example_dogs/englishsetter.jpg" width="200" /></td></tr>
+                    <tr><td>English Springer</td><td><img src="example_dogs/englishspringer.jpg" width="200" /></td></tr>
+                    <tr><td>Entlebucher Mountain Dog</td><td><img src="example_dogs/entlebuchermountaindog.jpg" width="200" /></td></tr>
+                    <tr><td>Eskimo Dog</td><td><img src="example_dogs/eskimodog.jpg" width="200" /></td></tr>
+                    <tr><td>Flat-Coated Retriever</td><td><img src="example_dogs/flat-coatedretriever.jpg" width="200" /></td></tr>
+                    <tr><td>French Bulldog</td><td><img src="example_dogs/frenchbulldog.jpg" width="200" /></td></tr>
+                    <tr><td>German Shepherd</td><td><img src="example_dogs/germanshepherd.jpg" width="200" /></td></tr>
+                    <tr><td>German Short-Haired Pointer</td><td><img src="example_dogs/germanshort-hairedpointer.jpg" width="200" /></td></tr>
+                    <tr><td>German Wirehaired Pointer</td><td><img src="example_dogs/germanwirehairedpointer.jpg" width="200" /></td></tr>
+                    <tr><td>Giant Schnauzer</td><td><img src="example_dogs/giantschnauzer.jpg" width="200" /></td></tr>
+                    <tr><td>Golden Retriever</td><td><img src="example_dogs/goldendoodle.jpg" width="200" /></td></tr>
+                    <tr><td>Goldendoodle</td><td><img src="example_dogs/goldenretriever.jpg" width="200" /></td></tr>
+                    <tr><td>Gordon Setter</td><td><img src="example_dogs/gordonsetter.jpg" width="200" /></td></tr>
+                    <tr><td>Great Dane</td><td><img src="example_dogs/greatdane.jpg" width="200" /></td></tr>
+                    <tr><td>Great Pyrenees</td><td><img src="example_dogs/greaterswissmountaindog.jpg" width="200" /></td></tr>
+                    <tr><td>Greater Swiss Mountain Dog</td><td><img src="example_dogs/greatpyrenees.jpg" width="200" /></td></tr>
+                    <tr><td>Groenendael</td><td><img src="example_dogs/groenendael.jpg" width="200" /></td></tr>
+                    <tr><td>Havanese</td><td><img src="example_dogs/havanese.jpg" width="200" /></td></tr>
+                    <tr><td>Ibizan Hound</td><td><img src="example_dogs/ibizanhound.jpg" width="200" /></td></tr>
+                    <tr><td>Irish Setter</td><td><img src="example_dogs/irishsetter.jpg" width="200" /></td></tr>
+                    <tr><td>Irish Terrier</td><td><img src="example_dogs/irishterrier.jpg" width="200" /></td></tr>
+                    <tr><td>Irish Water Spaniel</td><td><img src="example_dogs/irishwaterspaniel.jpg" width="200" /></td></tr>
+                    <tr><td>Irish Wolfhound</td><td><img src="example_dogs/irishwolfhound.jpg" width="200" /></td></tr>
+                    <tr><td>Italian Greyhound</td><td><img src="example_dogs/italiangreyhound.jpg" width="200" /></td></tr>
+                    <tr><td>Japanese Spaniel</td><td><img src="example_dogs/japanesespaniel.jpg" width="200" /></td></tr>
+                    <tr><td>Keeshond</td><td><img src="example_dogs/keeshond.jpg" width="200" /></td></tr>
+                    <tr><td>Kelpie</td><td><img src="example_dogs/kelpie.jpg" width="200" /></td></tr>
+                    <tr><td>Kerry Blue Terrier</td><td><img src="example_dogs/kerryblueterrier.jpg" width="200" /></td></tr>
+                    <tr><td>Komondor</td><td><img src="example_dogs/komondor.jpg" width="200" /></td></tr>
+                    <tr><td>Kuvasz</td><td><img src="example_dogs/kuvasz.jpg" width="200" /></td></tr>
+                    <tr><td>Labradoodle</td><td><img src="example_dogs/labradoodle.jpg" width="200" /></td></tr>
+                    <tr><td>Labrador Retriever</td><td><img src="example_dogs/labradorretriever.jpg" width="200" /></td></tr>
+                    <tr><td>Lagotto Romagnolo</td><td><img src="example_dogs/lagottoromagnolo.jpg" width="200" /></td></tr>
+                    <tr><td>Lakeland Terrier</td><td><img src="example_dogs/lakelandterrier.jpg" width="200" /></td></tr>
+                    <tr><td>Leonberg</td><td><img src="example_dogs/leonberg.jpg" width="200" /></td></tr>
+                    <tr><td>Lhasa</td><td><img src="example_dogs/lhasa.jpg" width="200" /></td></tr>
+                    <tr><td>Malamute</td><td><img src="example_dogs/malamute.jpg" width="200" /></td></tr>
+                    <tr><td>Malinois</td><td><img src="example_dogs/malinois.jpg" width="200" /></td></tr>
+                    <tr><td>Maltese Dog</td><td><img src="example_dogs/maltesedog.jpg" width="200" /></td></tr>
+                    <tr><td>Mexican Hairless</td><td><img src="example_dogs/mexicanhairless.jpg" width="200" /></td></tr>
+                    <tr><td>Miniature American Shepherd</td><td><img src="example_dogs/miniatureamericanshepherd.jpg" width="200" /></td></tr>
+                    <tr><td>Miniature Pinscher</td><td><img src="example_dogs/miniaturepinscher.jpg" width="200" /></td></tr>
+                    <tr><td>Miniature Poodle</td><td><img src="example_dogs/miniaturepoodle.jpg" width="200" /></td></tr>
+                    <tr><td>Miniature Schnauzer</td><td><img src="example_dogs/miniatureschnauzer.jpg" width="200" /></td></tr>
+                    <tr><td>Newfoundland</td><td><img src="example_dogs/newfoundland.jpg" width="200" /></td></tr>
+                    <tr><td>Norfolk Terrier</td><td><img src="example_dogs/norfolkterrier.jpg" width="200" /></td></tr>
+                    <tr><td>Norwegian Elkhound</td><td><img src="example_dogs/norwegianelkhound.jpg" width="200" /></td></tr>
+                    <tr><td>Norwich Terrier</td><td><img src="example_dogs/norwichterrier.jpg" width="200" /></td></tr>
+                    <tr><td>Nova Scotia Duck Tolling Retriever</td><td><img src="example_dogs/novascotiaducktollingretriever.jpg" width="200" /></td></tr>
+                    <tr><td>Old English Sheepdog</td><td><img src="example_dogs/oldenglishsheepdog.jpg" width="200" /></td></tr>
+                    <tr><td>Otterhound</td><td><img src="example_dogs/otterhound.jpg" width="200" /></td></tr>
+                    <tr><td>Papillon</td><td><img src="example_dogs/papillon.jpg" width="200" /></td></tr>
+                    <tr><td>Pekingese</td><td><img src="example_dogs/pekingese.jpg" width="200" /></td></tr>
+                    <tr><td>Pembroke Welsh Corgi</td><td><img src="example_dogs/pembrokewelshcorgi.jpg" width="200" /></td></tr>
+                    <tr><td>Pomeranian</td><td><img src="example_dogs/pomeranian.jpg" width="200" /></td></tr>
+                    <tr><td>Portuguese Water Dog</td><td><img src="example_dogs/portuguesewaterdog.jpg" width="200" /></td></tr>
+                    <tr><td>Pug</td><td><img src="example_dogs/pug.jpg" width="200" /></td></tr>
+                    <tr><td>Rat Terrier</td><td><img src="example_dogs/ratterrier.jpg" width="200" /></td></tr>
+                    <tr><td>Redbone</td><td><img src="example_dogs/redbone.jpg" width="200" /></td></tr>
+                    <tr><td>Rhodesian Ridgeback</td><td><img src="example_dogs/rhodesianridgeback.jpg" width="200" /></td></tr>
+                    <tr><td>Rottweiler</td><td><img src="example_dogs/rottweiler.jpg" width="200" /></td></tr>
+                    <tr><td>Russell Terrier</td><td><img src="example_dogs/russellterrier.jpg" width="200" /></td></tr>
+                    <tr><td>Saint Bernard</td><td><img src="example_dogs/saintbernard.jpg" width="200" /></td></tr>
+                    <tr><td>Saluki</td><td><img src="example_dogs/saluki.jpg" width="200" /></td></tr>
+                    <tr><td>Samoyed</td><td><img src="example_dogs/samoyed.jpg" width="200" /></td></tr>
+                    <tr><td>Schipperke</td><td><img src="example_dogs/schipperke.jpg" width="200" /></td></tr>
+                    <tr><td>Scottish Deerhound</td><td><img src="example_dogs/scottishdeerhound.jpg" width="200" /></td></tr>
+                    <tr><td>Scottish Terrier</td><td><img src="example_dogs/scottishterrier.jpg" width="200" /></td></tr>
+                    <tr><td>Sealyham Terrier</td><td><img src="example_dogs/sealyhamterrier.jpg" width="200" /></td></tr>
+                    <tr><td>Shetland Sheepdog</td><td><img src="example_dogs/shetlandsheepdog.jpg" width="200" /></td></tr>
+                    <tr><td>Shiba Inu</td><td><img src="example_dogs/shibainu.jpg" width="200" /></td></tr>
+                    <tr><td>Shih-Tzu</td><td><img src="example_dogs/shih-tzu.jpg" width="200" /></td></tr>
+                    <tr><td>Siberian Husky</td><td><img src="example_dogs/siberianhusky.jpg" width="200" /></td></tr>
+                    <tr><td>Silky Terrier</td><td><img src="example_dogs/silkyterrier.jpg" width="200" /></td></tr>
+                    <tr><td>Soft-Coated Wheaten Terrier</td><td><img src="example_dogs/soft-coatedwheatenterrier.jpg" width="200" /></td></tr>
+                    <tr><td>Staffordshire Bullterrier</td><td><img src="example_dogs/staffordshirebullterrier.jpg" width="200" /></td></tr>
+                    <tr><td>Standard Poodle</td><td><img src="example_dogs/standardpoodle.jpg" width="200" /></td></tr>
+                    <tr><td>Standard Schnauzer</td><td><img src="example_dogs/standardschnauzer.jpg" width="200" /></td></tr>
+                    <tr><td>Sussex Spaniel</td><td><img src="example_dogs/sussexspaniel.jpg" width="200" /></td></tr>
+                    <tr><td>Tibetan Mastiff</td><td><img src="example_dogs/tibetanmastiff.jpg" width="200" /></td></tr>
+                    <tr><td>Tibetan Terrier</td><td><img src="example_dogs/tibetanterrier.jpg" width="200" /></td></tr>
+                    <tr><td>Toy Poodle</td><td><img src="example_dogs/toypoodle.jpg" width="200" /></td></tr>
+                    <tr><td>Toy Terrier</td><td><img src="example_dogs/toyterrier.jpg" width="200" /></td></tr>
+                    <tr><td>Vizsla</td><td><img src="example_dogs/vizsla.jpg" width="200" /></td></tr>
+                    <tr><td>Walker Hound</td><td><img src="example_dogs/walkerhound.jpg" width="200" /></td></tr>
+                    <tr><td>Weimaraner</td><td><img src="example_dogs/weimaraner.jpg" width="200" /></td></tr>
+                    <tr><td>Welsh Springer Spaniel</td><td><img src="example_dogs/welshspringerspaniel.jpg" width="200" /></td></tr>
+                    <tr><td>West Highland White Terrier</td><td><img src="example_dogs/westhighlandwhiteterrier.jpg" width="200" /></td></tr>
+                    <tr><td>Whippet</td><td><img src="example_dogs/whippet.jpg" width="200" /></td></tr>
+                    <tr><td>Wire-Haired Fox Terrier</td><td><img src="example_dogs/wire-hairedfoxterrier.jpg" width="200" /></td></tr>
+                    <tr><td>Wirehaired Pointing Griffon</td><td><img src="example_dogs/wirehairedpointinggriffon.jpg" width="200" /></td></tr>
+                    <tr><td>Yorkshire Terrier</td><td><img src="example_dogs/yorkshireterrier.jpg" width="200" /></td></tr>
+                </table>
+            </div>
+        </div>
+    </body>
+</html>
