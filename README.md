@@ -14,7 +14,7 @@ Zero-padding was used when resizing images to a common size in order to maintain
 
 A learning rate was chosen using the `lr_find` feature in fastai, which starts with a very small learning rate, uses that for one mini-batch, calculates the losses, then increases the learning rate and repeats until the loss gets worse. Then the learning rate selected is the part of the loss vs. learning rate curve where the loss decreases the quickest before increasing again. See the fastai book, chapter 5 (search for "learning rate finder" [here](https://github.com/fastai/fastbook/blob/master/05_pet_breeds.ipynb)).
 
-The holdout set was evaluated on the final model, given a test set accuracy of 53.76%, compared to a random chance of 1/120 = 0.83% (because there are 120 dog breeds).
+The holdout set was evaluated on the final model, given a test set accuracy of 53.76%, compared to a random chance of 1/150 = 0.67% (because there are 150 dog breeds).
 
 Finally, I used the trained model to make predictions of breeds on dogs that I know, as well as the top 5 after the best guess.
 
